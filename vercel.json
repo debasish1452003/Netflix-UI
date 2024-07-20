@@ -1,4 +1,4 @@
-{
+ {
     "builds": [
         {
             "src": "server.js",
@@ -12,15 +12,7 @@
     "routes": [
         {
             "src": "/api/(.*)",
-            "dest": "api-server.js"
-        },
-        {
-            "src": "/about",
-            "dest": "netflix-ui/build/about.html"
-        },
-        {
-            "src": "/contact",
-            "dest": "netflix-ui/build/contact.html"
+            "dest": "server.js"
         },
         {
             "src": "/(.*)",
@@ -28,4 +20,3 @@
         }
     ]
 }
-

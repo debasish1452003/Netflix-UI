@@ -12,7 +12,15 @@
     "routes": [
         {
             "src": "/api/(.*)",
-            "dest": "server.js"
+            "dest": "api-server.js"
+        },
+        {
+            "src": "/about",
+            "dest": "netflix-ui/build/about.html"
+        },
+        {
+            "src": "/contact",
+            "dest": "netflix-ui/build/contact.html"
         },
         {
             "src": "/(.*)",
